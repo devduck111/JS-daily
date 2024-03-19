@@ -1,0 +1,25 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#sketch-container{
+    display: flex;
+    width: 1520px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+#sketch-container div{
+    width: 15px;
+    height: 15px;
+    border: 0.5px solid white;
+}
